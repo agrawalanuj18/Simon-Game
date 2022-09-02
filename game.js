@@ -14,13 +14,13 @@ $(document).on("keydown", function () {
     started = true;
   }
 });
-$(document).click(function () {
-  if (!started) {
-    $("h1").html("Level " + level);
-    nextSequence();
-    started = true;
-  }
-});
+// $(document).click(function () {
+//   if (!started) {
+//     $("h1").html("Level " + level);
+//     nextSequence();
+//     started = true;
+//   }
+// });
 
 $(".btn").click(function () {
   var userChosenColour = $(this).attr("id");
